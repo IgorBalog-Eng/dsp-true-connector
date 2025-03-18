@@ -1,6 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [project.version.placeholder] - [timestamp]
+
 ## [0.1.1] - 14-03-2025
 
 ### Changed

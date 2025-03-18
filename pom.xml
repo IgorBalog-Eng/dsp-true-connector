@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>it.eng</groupId>
 	<artifactId>trueconnector</artifactId>
-	<version>0.1.1</version>
+	<version>${revision}</version>
 	<packaging>pom</packaging>
 	<name>TRUE Connector</name>
 	<description>Dataspace protocol implementation of the TRUE Connector</description>
 
 	<properties>
-		<revision>0.1.0-SNAPSHOT</revision>
+		<revision>0.1.1-SNAPSHOT</revision>
 		<java.version>17</java.version>
 		<build.sourceEncoding>UTF-8</build.sourceEncoding>
 		<maven.compiler.release>${java.version}</maven.compiler.release>
@@ -50,11 +50,6 @@
 			<dependency>
 				<groupId>it.eng</groupId>
 				<artifactId>tools</artifactId>
-				<version>0.1.1</version>
-			</dependency>
-			<dependency>
-				<groupId>it.eng</groupId>
-				<artifactId>statemachine</artifactId>
 				<version>${revision}</version>
 			</dependency>
 		</dependencies>
